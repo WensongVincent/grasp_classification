@@ -1,0 +1,54 @@
+[
+    {
+        "imagePath": "/mnt/afs/share_data/R3/v0.3/data/media/raw_data/6.PieceGrasp/20240703_R3v0.3_6.PieceGrasp_ClawIntersecting_TestData_P1/6.PieceGrasp/TestData/NormalData/NormalLight/R3_EVT1_20240703/Pieces-Random/Occ-RoboticArm/Camera_01R2_G2704863/Ungrabed/intersecting/1719974169537/image2.png",
+        "gt": 0,
+        "anchor": [
+            1131,
+            839
+        ],
+        "box": [
+            96,
+            0,
+            0
+        ]
+    },
+    {
+        "imagePath": "/mnt/afs/share_data/R3/v0.3/data/media/raw_data/6.PieceGrasp/20240722_R3v0.3_6.PieceGrasp_TestData_P2/6.PieceGrasp/TestData/NormalData/DarkLight/R3_EVT01_20240722/Pieces-Random/Occ-RoboticArm/Camera_01R2_G2704863/Grabbed/RandomPieces/1721632073294/image2.png",
+        "gt": 1,
+        "anchor": [
+            851,
+            544
+        ],
+        "box": [
+            96,
+            0,
+            0
+        ]
+    },
+    {
+        "imagePath": "/mnt/afs/share_data/R3/v0.3/data/media/raw_data/6.PieceGrasp/20240722_R3v0.3_6.PieceGrasp_TestData_P2/6.PieceGrasp/TestData/NormalData/DarkLight/R3_EVT01_20240722/Pieces-Random/Occ-RoboticArm/Camera_01R2_G2704863/Ungrabed/non-intersecting/1721636120419/image2.png",
+        "gt": 0,
+        "anchor": [
+            277,
+            642
+        ],
+        "box": [
+            96,
+            0,
+            0
+        ]
+    },
+    {
+        "imagePath": "/mnt/afs/share_data/R3/v0.3/data/media/raw_data/6.PieceGrasp/20240722_R3v0.3_6.PieceGrasp_TestData_P2/6.PieceGrasp/TestData/NormalData/Shadow/R3_EVT01_20240722/Pieces-Random/Occ-RoboticArm/Camera_01R2_G2704863/Grabbed/RandomPieces/1721640503330/image2.png",
+        "gt": 1,
+        "anchor": [
+            767,
+            399
+        ],
+        "box": [
+            96,
+            0,
+            0
+        ]
+    }
+]
