@@ -1,0 +1,25 @@
+{
+    "general": {
+        "mode": "test",
+        "save_path": "/mnt/afs/huwensong/workspace/R3_grasp_classification/result/0806_2_test_gradcam",
+        "_comment": "For train, save ckpt and val results to save_path; For test, read ckpt from save_path for ckpt and save test_results to save_path"
+    },
+
+    "test_dataset": {
+        "path": "/mnt/afs/huwensong/workspace/R3_grasp_classification/meta_data/metadata_0806_2_test_gradcam.json",
+        "shuffle": false,
+        "num_workers": 4
+    },
+
+    "model": {
+        "type": "resnet18",
+        "num_classes": 2,
+        "scale": 1,
+        "ckpt_path": "/mnt/afs/huwensong/workspace/R3_grasp_classification/result/0729_2/ckpt.pth"
+    },
+
+    "test": {
+        "batch_size": 1,
+        "grad_cam": true
+    }
+}

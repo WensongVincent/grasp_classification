@@ -1,0 +1,37 @@
+{
+    "general": {
+        "mode": "train",
+        "save_path": "/mnt/afs/huwensong/workspace/R3_grasp_classification/result/0715_3",
+        "_comment": "For train, save ckpt and val results to save_path; For test, read ckpt from save_path for ckpt and save test_results to save_path"
+    },
+
+    "train_dataset": {
+        "path": "/mnt/afs/huwensong/workspace/R3_grasp_classification/meta_data/metadata_0715_train.json",
+        "shuffle": "False",
+        "num_workers": 4
+    },
+
+    "test_dataset": {
+        "path": "/mnt/afs/huwensong/workspace/R3_grasp_classification/meta_data/metadata_0715_test.json",
+        "shuffle": "False",
+        "num_workers": 4
+    },
+
+    "model": {
+        "type": "resnet18",
+        "num_classes": 2
+    },
+
+    "train": {
+        "lr": 1e-4,
+        "num_epochs": 10,
+        "weight_decay": 1e-3,
+        "batch_size": 32,
+        "lr_decay_step": 2,
+        "lr_decay": 1e-1
+    },
+
+    "test": {
+        "batch_size": 32
+    }
+}
